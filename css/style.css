@@ -1,0 +1,601 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* TOP BAR */
+.topbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 40px;
+	background-color: white;
+	z-index: 9999;
+}
+
+.topbar ul li a {
+	list-style: none;
+	text-decoration: none;
+	color: black;
+}
+
+.topbar li {
+	float: right;
+	list-style: none;
+	text-transform: uppercase;
+	margin-top: 2px;
+	margin-right: 15px;
+	font-size: 9px;
+	letter-spacing: 0;
+}
+
+.topbar a {
+	padding: 5px;
+	display: inline-table;
+}
+
+.topbar li a:hover {
+	background-color: green;
+	color: white;
+}
+
+.portfolio {
+	font-size: 14px;
+	margin-top: 4px;
+}
+
+/* BODY */
+body {
+	font: 16px/26px arial, sans-serif;
+	background-image: url(../img/bg.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #333;
+}
+
+.judul {
+	letter-spacing: 5px;
+}
+
+/* CONTAINER */
+.container {
+	width: 100%;
+	margin: 80px auto;
+	background-color: white;
+}
+
+.header {
+	padding: 15px;
+}
+
+/* NAVBAR */
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 15px;
+}
+
+.header ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 11px;
+}
+
+.header a {
+	padding: 5px;
+	color: black;
+	text-decoration: none;
+}
+
+.header a:hover {
+	background-color: lime;
+	color: white;
+}
+
+/* HERO / JUMBOTRON IMAGE */
+.hero {
+	height: 370px;
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 -65px;
+
+}
+
+.profile {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin-left: 120px;
+	margin-top: 100px;
+}
+
+.profile:hover {
+	transform: 1.5s ease scale(1.3);
+	cursor: pointer;
+}
+
+.sub-profile {
+	color: white;
+	margin-left: 70px;
+	font-size: 12px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+/* ABOUT */
+.main {
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.main h3 {
+	text-align: center;
+	padding: 25px;
+	font-size: 12px;
+}
+
+.main p {
+	font-size: 11px;
+	text-align: justify;
+	padding: 5px;
+	padding-left: 5px;
+}
+
+hr {
+	width: 20%;
+	margin: auto;
+	margin-top: 10px;
+}
+
+/* PROGRESS BAR */
+.center {
+	width: 30%;
+	margin-top: 60px;
+	margin-left: 45px;
+}
+
+h3 {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+.skillbar {
+	box-sizing: border-box;
+	width: 200px;
+	margin: 20px 0;
+}
+
+.center h3 {
+	text-align: center;
+	margin-left: 60px;
+}
+
+.skillbar:hover {
+	transition: ease-in-out;
+	transform: scale(1.3);
+	cursor: pointer;
+}
+
+.skillbar p {
+	text-transform: uppercase;
+	margin: 0 0 10px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+.skillbar p:nth-child(2) {
+	float: right;
+	position: relative;
+	top: -35px;
+}
+
+.skill_precentage {
+	background: black;
+	padding: 4px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	border-radius: 6px;
+
+}
+
+.skill_level {
+	background: red;
+	width: 75%;
+	height: 5px;
+	border-radius: 6px;
+}
+
+.skill_level2 {
+	background: green;
+	width: 55%;
+	height: 5px;
+	border-radius: 6px;
+}
+
+.skill_level3 {
+	background: yellow;
+	width: 50%;
+	height: 5px;
+	border-radius: 6px;
+}
+
+.skill_level4 {
+	background: blue;
+	width: 65%;
+	height: 5px;
+	border-radius: 6px;
+}
+
+/* CONTACT */
+.contact {
+	margin-top: 50px;
+	height: 200px;
+	background-image: url(../img/hero.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.gambar img {
+	max-width: 100px;
+	float: left;
+	margin-right: 15px;
+}
+
+.fb {
+	margin-top: 80px;
+	filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.8));
+}
+
+.fb:hover {
+	transform: scale(1.4);
+}
+
+.wa {
+	margin-top: 80px;
+	width: 55px;
+	filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.8));
+}
+
+.wa:hover {
+	transform: scale(1.4);
+}
+
+
+.ig {
+	margin-top: 65px;
+	width: 85px;
+	filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.8));
+}
+
+.ig:hover {
+	transform: scale(1.4);
+}
+
+
+/* footer */
+.footer p {
+	font-size: 11px;
+	text-align: center;
+	padding: 10px;
+}
+
+/* TOMBOL UBAH WARNA BACKGROUND */
+.terimakasih h3 {
+	text-align: center;
+	color: white;
+}
+
+.terima-kasih {
+	margin-left: 100px;
+	color: black;
+	height: 28px;
+	padding: 3px;
+	padding-bottom: 4px;
+	margin-top: 6px;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+	cursor: pointer;
+}
+
+.terimakasih {
+	margin-bottom: 50px;
+}
+
+
+/* MICRO CLEAR FIX UNTUK MEMBERSIHKAN FLOAT AGAR TIDAK COLLAPSE (NGAMBIL DARI GOOGLE)*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/* kecil */
+@media screen and (min-width: 992px) {
+	.topbar {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 50px;
+		background-color: white;
+		z-index: 9999;
+	}
+
+	.topbar li {
+		float: right;
+		list-style: none;
+		padding: 5px;
+		margin-right: 5px;
+		text-transform: uppercase;
+		margin-top: 2px;
+		margin-right: 25px;
+		font-size: 12px;
+		letter-spacing: 2px;
+	}
+
+	/* CONTAINER */
+	.container {
+		width: 960px;
+		margin: 80px auto;
+		background-color: white;
+	}
+
+	.header {
+		padding: 25px;
+	}
+
+	/* NAVBAR */
+	.header ul li {
+		display: inline-block;
+		margin-top: 20px;
+		margin-right: 15px;
+	}
+
+	.header ul li a {
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing: 2px;
+		font-size: 14px;
+	}
+
+	.header a {
+		padding: 5px;
+		color: black;
+		text-decoration: none;
+	}
+
+	.header a:hover {
+		background-color: lime;
+		color: white;
+	}
+
+	/* HERO / JUMBOTRON IMAGE */
+	.hero {
+		height: 370px;
+		background-image: url(../img/bg.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 0 -65px;
+
+	}
+
+	.profile {
+		width: 120px;
+		height: 120px;
+		border-radius: 50%;
+		margin-left: 420px;
+		margin-top: 120px;
+	}
+	
+	.profile:hover {
+		transform: scale(1.3);
+		cursor: pointer;
+	}
+	
+	.sub-profile {
+		color: white;
+		margin-left: 340px;
+		font-size: 18px;
+		font-weight: bold;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	}
+	
+	/* ABOUT */
+	.main {
+		width: 550px;
+		padding: 20px;
+		box-sizing: border-box;
+		float: left;
+	}
+	
+	.main h3 {
+		text-align: center;
+		padding: 25px;
+		margin-top: 20px;
+	}
+	
+	.main p {
+		font-size: 12px;
+		text-align: justify;
+		text-indent: 50px;
+		padding-left: 20px;
+	}
+	
+	hr {
+		width: 20%;
+		margin: auto;
+		margin-top: 10px;
+	}
+	
+	/* PROGRESS BAR */
+	.center {
+		width: 30%;
+		margin-top: 60px;
+		float: left;
+		margin-left: 45px;
+	}
+	
+	h3 {
+		letter-spacing: 5px;
+		text-transform: uppercase;
+	}
+	
+	.skillbar {
+		box-sizing: border-box;
+		width: 100%;
+		margin: 20px 0;
+	}
+	
+	.skillbar:hover {
+		transition: ease-in-out;
+		transform: scale(1.3);
+		cursor: pointer;
+	}
+	
+	.skillbar p {
+		text-transform: uppercase;
+		margin: 0 0 10px;
+		font-weight: bold;
+		letter-spacing: 3px;
+	}
+	
+	.skillbar p:nth-child(2) {
+		float: right;
+		position: relative;
+		top: -35px;
+	}
+	
+	.skill_precentage {
+		background: black;
+		padding: 4px;
+		box-sizing: border-box;
+		border: 1px solid black;
+		border-radius: 6px;
+	
+	}
+	
+	.skill_level {
+		background: red;
+		width: 75%;
+		height: 5px;
+		border-radius: 6px;
+	}
+	
+	.skill_level2 {
+		background: green;
+		width: 55%;
+		height: 5px;
+		border-radius: 6px;
+	}
+	
+	.skill_level3 {
+		background: yellow;
+		width: 50%;
+		height: 5px;
+		border-radius: 6px;
+	}
+	
+	.skill_level4 {
+		background: blue;
+		width: 65%;
+		height: 5px;
+		border-radius: 6px;
+	}
+	
+	/* CONTACT */
+	.contact {
+		margin-top: 50px;
+		height: 200px;
+		background-image: url(../img/hero.jpg);
+		background-attachment: fixed;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	
+	.gambar {
+		margin-left: 335px;
+	}
+	
+	.gambar img {
+		max-width: 100px;
+		float: left;
+		margin-right: 15px;
+	}
+	
+	.fb {
+		margin-top: 80px;
+		filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.8));
+	}
+	
+	.fb:hover {
+		transform: scale(1.4);
+	}
+	
+	.wa {
+		margin-top: 80px;
+		width: 55px;
+		filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.8));
+	}
+	
+	.wa:hover {
+		transform: scale(1.4);
+	}
+	
+	
+	.ig {
+		margin-top: 65px;
+		width: 85px;
+		filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.8));
+	}
+	
+	.ig:hover {
+		transform: scale(1.4);
+	}
+	
+	
+	/* footer */
+	.footer p {
+		font-size: 11px;
+		text-align: center;
+		padding: 10px;
+	}
+	
+	/* TOMBOL UBAH WARNA BACKGROUND */
+	.terimakasih h3 {
+		text-align: center;
+		color: white;
+	}
+	
+	.terima-kasih {
+		margin-left: 630px;
+		color: black;
+		padding: 5px;
+		height: 30px;
+		margin-top: 6px;
+		box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+		cursor: pointer;
+	}
+	
+	.terimakasih {
+		margin-bottom: 50px;
+	}
+}
